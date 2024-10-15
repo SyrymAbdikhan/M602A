@@ -2,6 +2,11 @@
 #include <iostream>
 
 int main(void) {
-    std::cout << "Hello World!\n";
+    
+    std::string name;
+    std::cout << "What's your name: ";
+    std::cin >> name;
+    std::cout << "Hello " << name << "!\n";
+    
     return 0;
 }

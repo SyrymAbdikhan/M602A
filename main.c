@@ -2,6 +2,11 @@
 #include <stdio.h>
 
 int main(void) {
-    printf("Hello World!\n");
+    
+    char name[45];
+    printf("What's your name: ");
+    scanf("%s", name);
+    printf("Hello %s!\n", name);
+
     return 0;
 }
